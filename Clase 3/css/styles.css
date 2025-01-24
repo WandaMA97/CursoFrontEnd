@@ -1,0 +1,38 @@
+body{
+    background-image: url(/img/fondo.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+}
+#inicio{
+    padding: 5em 10em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 8em;
+    img{
+        width: 10em;
+        margin: 0.5em
+    }
+}
+#cards{
+    padding: 5em 10em
+}
+.card{
+    color: white;
+    display: flex;
+    align-content: flex-end;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+#card1{
+    background-image: url(/img/gato.avif);
+}
+#card2{
+    background-image: url(/img/robot.avif);
+}
+#card3{
+    background-image: url(/img/tesoro.avif);
+}
+#card4{
+    background: linear-gradient(to top, #33ccff 0%, #ff99cc 100%);
+}
